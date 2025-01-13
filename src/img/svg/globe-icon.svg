@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#ea0c0e;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="globe" transform="translate(-.5 -.5)">
+        <circle id="Ellipse_2402" cx="11" cy="11" r="11" class="cls-1" transform="translate(2 2)"/>
+        <path id="Line_771" d="M0 0L22 0" class="cls-1" transform="translate(2 13)"/>
+        <path id="Path_25443" d="M12.4 2a16.83 16.83 0 0 1 4.4 11 16.83 16.83 0 0 1-4.4 11A16.83 16.83 0 0 1 8 13a16.83 16.83 0 0 1 4.4-11z" class="cls-1" transform="translate(.6)"/>
+    </g>
+</svg>

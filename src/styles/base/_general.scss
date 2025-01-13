@@ -1,0 +1,169 @@
+.wrapper {
+    width: 100%;
+    padding: 95px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1290px;
+    padding: 0px 20px;
+}
+
+
+.col-left {
+    width: 290px;
+    padding-right: 20px;
+}
+
+.col-right {
+    width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $InterBold;
+    color: $text-dark;
+    line-height: 1.25;
+}
+
+address {
+    font-style: normal;
+}
+
+h1 {
+    font-size: rem(42);
+}
+
+h2 {
+    font-size: rem(32);
+    line-height: rem(48);
+}
+
+h3 {
+    font-family: $InterSemiBold;
+    font-size: rem(28);
+    word-spacing: -4px;
+}
+
+h4 {
+    font-family: $InterSemiBold;
+    font-size: rem(22);
+}
+
+a {
+    font-family: $InterRegular;
+    color: $text-grey;
+    text-decoration: none;
+    transition: color .2s;
+
+    &:hover {
+        color: $text-dark;
+    }
+}
+
+p {
+    font-family: $InterMedium;
+    color: $text-dark;
+    font-size: rem(18);
+}
+
+strong {
+    font-family: $InterSemiBold;
+}
+
+.section {
+    margin-top: 90px;
+
+    &__title {
+        font-family: $InterMedium;
+        font-size: rem(22);
+        color: $text-grey;   
+    }
+
+    &__date {
+        display: inline-block;
+        font-family: $InterRegular;
+        font-size: rem(18);
+        color: $text-grey;
+        margin-top: 24px;
+        margin-bottom: 36px;
+    }
+
+    &__list {
+        list-style-type: disc;
+        margin-top: 20px;
+        font-family: $InterRegular;
+        font-size: rem(22);
+        line-height: rem(32);
+        color: $text-dark;
+        padding-left: 50px;
+    }
+
+    &__link {
+        font-family: $InterSemiBold;
+        font-size: rem(24);
+        color: $text-dark;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wrapper {
+        padding: 35px 0px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .col-left {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .col-right {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: rem(34);
+    }
+
+    h2 {
+        font-size: rem(24);
+        line-height: rem(34);
+    }
+
+    h3 {
+        font-size: rem(24);
+    }
+
+    h4 {
+        font-size: rem(20);
+    }
+
+    .section {
+        margin-top: 70px;
+
+        &__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        &__link {
+            font-size: rem(20);
+        }
+    }
+
+    .list {
+        font-size: rem(20);
+        line-height: rem(30);
+    }
+}

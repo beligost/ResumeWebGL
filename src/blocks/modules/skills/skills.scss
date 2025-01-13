@@ -1,0 +1,19 @@
+.skills {
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__item {
+        font-family: $InterSemiBold;
+        font-size: rem(24);
+        margin-bottom: 36px;
+    }
+
+    @media only screen and (max-width: 700px) {
+        &__item {
+            font-size: rem(20);
+        }
+    }
+}

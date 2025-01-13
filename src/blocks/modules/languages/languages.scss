@@ -1,0 +1,67 @@
+#gradient-canvas {
+    width: 100%;
+    --gradient-color-1: #edecfe; 
+    --gradient-color-2: #f3fbf4; 
+    --gradient-color-3: #fff7f1;  
+    --gradient-color-4: #ffffff;
+}
+
+.languages {
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 34px;
+    }
+
+    &__name {
+        font-family: $InterSemiBold;
+        font-size: rem(24);
+        margin-left: 26px;
+        margin-right: 16px;
+    }
+    
+    &__level {
+        font-family: $InterRegular;
+        font-size: rem(24);
+        color: $text-grey;
+    }
+
+    .progress-circle {
+        transform: rotate(-90deg);
+    }
+      
+    .progress-bg {
+        fill: none;
+        stroke: #e6e6e6;
+        stroke-width: 4;
+    }
+      
+    .progress-bar {
+        fill: none;
+        stroke: $text-dark;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-dasharray: 81.68;
+        stroke-dashoffset: 81.68;
+        transition: stroke-dashoffset 0.4s linear;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        &__grid {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        &__name, &__level {
+            font-size: rem(20);
+        }
+    }
+}

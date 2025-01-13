@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="209.902" height="65.886" viewBox="0 0 209.902 65.886">
+    <defs>
+        <radialGradient id="radial-gradient" cx=".779" cy=".696" r=".809" gradientTransform="rotate(36.25 .779 .695)" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fc5e4c"/>
+            <stop offset=".199" stop-color="#f33440"/>
+            <stop offset=".63" stop-color="#a418a0"/>
+            <stop offset="1" stop-color="#de0f4a"/>
+        </radialGradient>
+        <linearGradient id="linear-gradient" x1="-.072" x2=".459" y1=".456" y2=".964" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#fc5e4c"/>
+            <stop offset=".543" stop-color="#f02c2e"/>
+            <stop offset="1" stop-color="#fb594b"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="Group_10049" transform="translate(-118.855 -150.663)">
+        <g id="Group_10033" transform="translate(316.346 163.292)">
+            <circle id="Ellipse_458" cx="6.205" cy="6.205" r="6.205" fill="#080c42"/>
+            <path id="Path_25286" d="M1.754 1.372V-.995h1.108l1.251 2.367h1.3L4.1-.986a2.012 2.012 0 0 0-.2-.33v-.018a1.82 1.82 0 0 0 1.061-1.733A1.75 1.75 0 0 0 3.889-4.8a3.116 3.116 0 0 0-1.2-.17H.6v6.342zm0-5.351h.84a1.777 1.777 0 0 1 .7.107.841.841 0 0 1 .5.866A.936.936 0 0 1 2.791-2H1.754z" class="cls-2" transform="translate(3.544 8.082)"/>
+        </g>
+        <text id="arbex" fill="#080c42" font-family="HurmeGeometricSans1-Bold, 'Hurme Geometric Sans \31 '" font-size="44px" font-weight="700" transform="translate(187.734 192.663)">
+            <tspan x="0" y="0">arbex</tspan>
+        </text>
+        <path id="Union_87" fill="url(#linear-gradient)" d="M25.3 56.532l-9.9-8.822 11.41-10.158L12 41.287 0 30.7l12-10.085 15.309 3.039-11.945-10.635 9.965-8.871 29.435 26.209-9.964 8.871-.032-.028-19.462 17.332zm9.509-28.264a3.431 3.431 0 1 0 3.432-3.434 3.438 3.438 0 0 0-3.428 3.433zm4.794-16.885a3.1 3.1 0 1 1 3.1 3.1 3.109 3.109 0 0 1-3.096-3.101zm-4.134-9.314a2.069 2.069 0 1 1 2.069 2.07 2.071 2.071 0 0 1-2.069-2.07z" transform="translate(118.855 151.28)"/>
+        <path id="Union_88" fill="url(#radial-gradient)" d="M20.521 2c11.333 0 20.521 1.66 20.521 3.708s-9.188 3.709-20.521 3.709S0 7.756 0 5.708 9.188 2 20.521 2z" opacity="0.16" transform="translate(126.284 201.133)"/>
+        <ellipse id="Ellipse_897" cx="3.435" cy="3.432" class="cls-2" rx="3.435" ry="3.432" transform="rotate(90 -7.79 168.323)"/>
+    </g>
+</svg>

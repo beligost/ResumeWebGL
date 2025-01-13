@@ -1,0 +1,9 @@
+.details {
+
+    &__separator {
+        display: inline-block;
+        width: 20%;
+        max-width: 210px;
+        border-bottom: 2px solid $grey-100;
+    }
+}
